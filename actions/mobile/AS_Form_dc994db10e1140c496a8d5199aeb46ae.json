@@ -1,0 +1,24 @@
+{
+    "AS_Form_dc994db10e1140c496a8d5199aeb46ae": {
+        "id": "AS_Form_dc994db10e1140c496a8d5199aeb46ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "homeForm",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ce70bb95814a4fdd878eb210068dabdd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a65f2d0e2d9244be83ba45c639965e25",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "const AppState = require(\"AppState\");\ntry {\n  let storedEmail = AppState.email();\n  alert(storedEmail);\n  self.view.slidingmenu.headingText = storedEmail;\n} catch(err) {\n  alert(\"Não pude obter o email\");\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

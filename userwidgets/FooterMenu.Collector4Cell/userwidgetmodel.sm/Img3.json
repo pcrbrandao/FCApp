@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf7bdc69e5bd433283c8aa45ce35981f",
+    "_src_": "search_inactive.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "android": {
+        "bottom": {
+            "type": "string",
+            "value": "20dp"
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "platform": "iphone",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "id": "Img3",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "h918346317144aa4b9c68c5d30a29e3e",
+    "name": "kony.ui.Image2",
+    "parent": "Collector4Cell",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "tabrcandroid": {
+        "bottom": {
+            "type": "string",
+            "value": "20dp"
+        }
+    },
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_f916101f8c5d424baed0bde45471ebeb": {
+        "id": "AS_Button_f916101f8c5d424baed0bde45471ebeb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loginForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i6f14ae9a14d4591a864b173940bdc94"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ha37f6813a5140dd8cae0bb6f7d5a65c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.checkCredentials(this.view.emailTextField.text, this.view.passwordTextField.text);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

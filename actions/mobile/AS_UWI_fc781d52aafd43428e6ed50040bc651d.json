@@ -1,0 +1,39 @@
+{
+    "AS_UWI_fc781d52aafd43428e6ed50040bc651d": {
+        "id": "AS_UWI_fc781d52aafd43428e6ed50040bc651d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "menuindex",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "homeForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ce70bb95814a4fdd878eb210068dabdd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "IF_CONDITION__b378b67879bf49689bd98289dee08623",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": " menuindex == 3"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET__b1adc5a9c7544418a1f297ec06531729",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "AppState.resetState();",
+            "parentId": "IF_CONDITION__b378b67879bf49689bd98289dee08623",
+            "callbackType": null
+        }, {
+            "id": "EXIT_APP__c25fbbd012ef4a878578f673e5640db4",
+            "type": "EXIT_APP",
+            "parentId": "IF_CONDITION__b378b67879bf49689bd98289dee08623",
+            "callbackType": null
+        }]
+    }
+}

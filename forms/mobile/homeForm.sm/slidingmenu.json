@@ -1,0 +1,157 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sc5440b885474a158547d6a55e80e3c4",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "headingHeight": {
+            "Default": {
+                "type": "string",
+                "value": "50%"
+            }
+        },
+        "headingLeft": {
+            "Default": {
+                "type": "string",
+                "value": "28.38%"
+            }
+        },
+        "headingText": "Márcio Dias Araújo de Souza",
+        "headingTextIsVisible": true,
+        "headingWidth": {
+            "Default": {
+                "type": "string",
+                "value": "70%"
+            }
+        },
+        "menuOptions": {
+            "data": [
+                {
+                    "menuItemIcon": "contacts_active.png",
+                    "menuItemName": "Acessar perfil"
+                },
+                {
+                    "menuItemIcon": "visualizerimage_icon.png",
+                    "menuItemName": "Biblioteca"
+                },
+                {
+                    "menuItemIcon": "visualizerimage_icon.png",
+                    "menuItemName": "Contatos"
+                },
+                {
+                    "menuItemIcon": "visualizerimage_icon.png",
+                    "menuItemName": "Sair"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Menu Item Name",
+                    "columnHeaderType": "text",
+                    "columnID": "menuItemName",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "f8ade95d4f564430ad3314aa8392f025"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Menu Item Icon",
+                    "columnHeaderType": "text",
+                    "columnID": "menuItemIcon",
+                    "columnText": "Not Defined",
+                    "columnType": "image",
+                    "kuid": "ed67cd7bd0bb449db2118f45df628dfe"
+                }
+            ]
+        },
+        "onMenuItemClick": "AS_UWI_fc781d52aafd43428e6ed50040bc651d",
+        "profileImageHeight": {
+            "Default": {
+                "type": "string",
+                "value": "60dp"
+            }
+        },
+        "profileImageIsVisible": true,
+        "profileImageLeft": {
+            "Default": {
+                "type": "string",
+                "value": "50%"
+            }
+        },
+        "profileImageSrc": "screen_shot_2017_02_13_at_4_29_21_pm_copy_2.png",
+        "profileImageTop": {
+            "Default": {
+                "type": "string",
+                "value": "20%"
+            }
+        },
+        "profileImageType": "Circle",
+        "profileImageWidth": {
+            "Default": {
+                "type": "string",
+                "value": "60dp"
+            }
+        },
+        "slidingMenuVisibility": true,
+        "subHeadingLeft": {
+            "Default": {
+                "type": "string",
+                "value": "28.38%"
+            }
+        },
+        "subHeadingText": "subHeadingText",
+        "subHeadingTextIsVisible": false
+    },
+    "enablescrolling": true,
+    "id": "slidingmenu",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e0c0d16062524ea2a95c9369c34e3ad5",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "homeForm",
+    "pf": "homeForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "m8e464bb908946d5a8beecad6f314755",
+    "wType": "UserWidgetInstance",
+    "zindex": 99
+}
